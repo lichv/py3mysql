@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-	name = 'lichvPymysql',
+	name = 'lichvPy3mysql',
 	version = '0.0.1',
 	description = 'Utility tools with mysqldb',
 	long_description = 'Utility tools with mysqldb', 
