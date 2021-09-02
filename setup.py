@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
 	name = 'lichvPy3mysql',
-	version = '0.0.1',
+	version = '0.0.3',
 	description = 'Utility tools with mysqldb',
 	long_description = 'Utility tools with mysqldb', 
 	author = 'lichv',

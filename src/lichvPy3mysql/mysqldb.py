@@ -223,7 +223,7 @@ class MysqlDBService(object):
 		sql = ''
 		data_sql = ''
 		for key in data:
-			data_sql += key + '="'+str(data[key])+'", '
+			data_sql += key + '="'+escape_string(str(data[key]))+'", '
 		if data_sql:
 			sql = 'update '+ table + ' set ' + data_sql[0:-2]
 		where_sql = self._where(query)
